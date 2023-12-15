@@ -55,3 +55,46 @@
   padding: 20px 20px;
   height: 50px;
 }
+
+@media only screen and (max-width: 425px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .board {
+    height: 400px;
+    width: 380px;
+    margin: 0 auto;
+  }
+
+  .boxes {
+    height: 120px;
+    width: 120px;
+  }
+
+  .reset {
+    width: 200px;
+    height: 60px;
+  }
+
+  .title img {
+    padding: 15px 10px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .board {
+    height: 365px;
+    width: 354px;
+  }
+
+  .boxes {
+    height: 110px;
+    width: 110px;
+  }
+
+  .title img {
+    height: 20px;
+  }
+}
